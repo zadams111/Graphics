@@ -41,12 +41,13 @@ fn fs( @builtin(position) pos : vec4f ) -> @location(0) vec4f {
   //d = smoothstep(0.0, .1, d);
   //d = 1. - d;
 
-  //var d = length(uv1) * noise(uv1 + frame / 60000.);
-  var d = length(uv1);
+  var d = length(uv1) * noise(uv1 + frame / 60000.);
+  //var d = length(uv1);
   d = sin(d*8 + frame / 60.) / 8.;
   d = abs(d);
 
   d = 0.02 / d;
+  d = log(d);
 
 
 
