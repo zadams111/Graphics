@@ -1,0 +1,10 @@
+Artistic Intent
+I wanted to design an animation that felt sterile, unwelcoming  and digital. I was Inspired aesthetically by Aenima’s cover designed  by  Cam de Leon. I was also going for a granular pattern and visuals inspired by sand reacting to different frequencies of sound.  I was looking to explore the image quality of an older generation monitor as well with low fidelity graphics. Overall, I planned  for the animation to start with inorganic and predictable geometry and gradually warp into something more naturalistic and unpredictable with no colors. 
+
+Technical Intent
+After reading chapters on Shapes and Noise. I tried to implement them in the design with a tv-static effect and repeating pattern of lines that I could distort. I used a  noise function to displace the shapes over time to get organic warped effects. Additional WGSL  functions were used, like sin() to create rhythmic patterns and oscillating shapes, Length() to manipulate the contour of shapes and Log() to adjust the balance of the image.
+
+Feedback
+“Section 1 with the concentric circles had a sensation of falling with a slight building of uneasiness that grew throughout that section. The amorphous shapes continued the uneasiness that mained across the course of the animation. The white noise section was a nice ending that felt cohesive with the previous parts of the animations.”
+
+I was going for something uneasy, which the feedback reflected but I was hoping that the amorphous shapes would release tension from the previous section and they simply intensified it. Probably because I continued to add more density during that section.
