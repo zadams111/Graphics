@@ -1,0 +1,10 @@
+
+Artistic Intent
+This Shader is  interactive and takes video feed from  webcam to create a post processing effect based off of a smoke or liquid effect. To make it look like the image is being created out of dizzying and flowing vaporized particles.  I want lots of interactivity, user driven experience where someone can really mess around with the parameters to try to figure out what’s going on. Intended to use a video filter. 
+
+Technical Intent
+Interested in exploring fractal brownian motion  to achieve the liquid or smokey effect that distorts the image to varying degrees specified by the user. Widgets using Tweakpane library make these parameters accessible. Tweakpane has a variety of options  to use for components. I want to use as many different ones as possible with a user in mind. The widgets will control, scale, intensity, the time, color, and the final image  balance. The user should have a lot of control to make the image they want.
+
+
+Feedback
+Thought it was really cool. Especially liked the transparent effect. However, would have liked more control over the image process. The color controls were not that intuitive and only one color picker seemed to work which was kind of frustrating for them. They did like that any values could be entered in some of the fields to make more extreme images. They enjoyed just using the completely transparent mode with a little bit of tint and observing their reflection change as they moved in-front of the camera. 
